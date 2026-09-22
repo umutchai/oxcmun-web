@@ -73,7 +73,7 @@ export default function ConferenceFeeSection() {
                     <div className="p-3 rounded-xl bg-[#D9278E]/20 text-[#D9278E] shrink-0">
                       <Calendar className="w-6 h-6" />
                     </div>
-                    <span>24-25 OCTOBER</span>
+                    <span>24 OCTOBER</span>
                   </div>
 
                   {/* Location Badge */}

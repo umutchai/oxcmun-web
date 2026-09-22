@@ -26,7 +26,7 @@ export default function RegisterModal({ isOpen, onClose }: RegisterModalProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-lg animate-in fade-in duration-200">
       <div className="w-full max-w-xl bg-white border-2 border-slate-200 rounded-3xl shadow-2xl overflow-hidden relative">
-        
+
         {/* Header Banner */}
         <div className="p-6 bg-[#D9278E] text-white flex items-center justify-between shadow-md">
           <div className="flex items-center gap-3">
@@ -38,7 +38,7 @@ export default function RegisterModal({ isOpen, onClose }: RegisterModalProps) {
                 Register for OXCPREMUN
               </h3>
               <p className="text-xs text-white/90 font-bold">
-                24-25 October 2026 • New Park Hotel, Ankara
+                24 October 2026 • New Park Hotel, Ankara
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function RegisterModal({ isOpen, onClose }: RegisterModalProps) {
 
             <div className="p-3.5 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-between text-xs font-bold">
               <span className="text-slate-700">Selected Event:</span>
-              <span className="text-[#D9278E] font-extrabold">24-25 Oct • New Park Hotel Ankara</span>
+              <span className="text-[#D9278E] font-extrabold">24 Oct • New Park Hotel Ankara</span>
             </div>
 
             <div className="pt-2">

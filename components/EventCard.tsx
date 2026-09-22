@@ -42,7 +42,7 @@ export default function EventCard({ onOpenRegister }: EventCardProps) {
                 {/* Big Date Counter */}
                 <div>
                   <span className="text-[#D9278E] font-display text-6xl sm:text-7xl lg:text-8xl font-black block leading-none mb-3 drop-shadow-md">
-                    24-25
+                    24
                   </span>
                   <span className="text-2xl sm:text-3xl font-black uppercase tracking-widest text-slate-100 block">
                     October 2026

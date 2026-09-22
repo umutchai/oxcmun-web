@@ -14,7 +14,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   if (!isOpen) return null;
 
   const quickLinks = [
-    { title: "24-25 October Ankara Conference", tag: "Event", icon: Calendar },
+    { title: "24 October Ankara Conference", tag: "Event", icon: Calendar },
     { title: "New Park Hotel Venue Details", tag: "Location", icon: MapPin },
     { title: "5 Core Pillars of PREMUN", tag: "Curriculum", icon: Sparkles },
     { title: "Primary School Delegate Guide", tag: "Booklet", icon: ArrowRight },
@@ -23,7 +23,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center pt-24 px-4 bg-slate-900/60 backdrop-blur-md animate-in fade-in duration-200">
       <div className="w-full max-w-2xl bg-white border-4 border-amber-300/90 rounded-3xl shadow-2xl overflow-hidden space-y-4">
-        
+
         {/* Search Input Bar */}
         <div className="p-5 border-b-2 border-amber-200 flex items-center gap-3 bg-[#FFFDF9]">
           <Search className="w-5 h-5 text-pink-600 shrink-0" />
