@@ -53,12 +53,12 @@ export default function PremunSection() {
                 What is PREMUN?
               </h3>
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed font-normal">
-                PREMUN (Primary Model United Nations) is a specialized Model United Nations simulation designed specifically for primary and middle school students. It introduces young learners to global issues, public speaking, diplomacy, and debate in an engaging, age-appropriate environment.
+                PREMUN (Primary Model United Nations) is a specialized Model United Nations simulation designed specifically for primary school students. It introduces young learners to global issues, public speaking, diplomacy, and debate in an engaging, age-appropriate environment.
               </p>
             </div>
             <div className="mt-8 pt-6 border-t border-slate-700/60 flex items-center gap-3 text-slate-400 text-sm font-semibold">
               <Users className="w-5 h-5 text-[#D9278E]" />
-              <span>Tailored for Primary & Middle School Students</span>
+              <span>Tailored for Primary School Students</span>
             </div>
           </motion.div>
 
@@ -78,7 +78,7 @@ export default function PremunSection() {
                 Why Primary?
               </h3>
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed font-normal">
-                Starting early builds critical life skills before high school. Young students naturally possess curiosity and openness; PREMUN channels these traits into structured thinking, confidence in speaking English, and a global perspective that lasts a lifetime.
+                Starting early builds critical life skills before middle school. Young students naturally possess curiosity and openness; PREMUN channels these traits into structured thinking, confidence in speaking English, and a global perspective that lasts a lifetime.
               </p>
             </div>
             <div className="mt-8 pt-6 border-t border-slate-700/60 flex items-center text-slate-400 text-sm font-semibold">

@@ -11,7 +11,7 @@ export default function EventCard({ onOpenRegister }: EventCardProps) {
   return (
     <section id="events" className="py-28 text-slate-900 relative overflow-hidden">
       <div className="max-w-[1650px] mx-auto px-6 sm:px-12 lg:px-16 xl:px-20 relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-4xl mx-auto space-y-5 mb-20">
           <div className="inline-flex items-center px-5 py-2 rounded-full bg-white/70 backdrop-blur-lg border border-white/50 text-slate-900 text-xs sm:text-sm font-black tracking-widest uppercase shadow-xl">
@@ -23,14 +23,14 @@ export default function EventCard({ onOpenRegister }: EventCardProps) {
           </h2>
 
           <p className="text-lg sm:text-xl text-slate-700 font-medium leading-relaxed">
-            Join young delegates across the region for an extraordinary two-day Model United Nations experience.
+            Join young delegates across the region for an extraordinary 1-day Model United Nations experience.
           </p>
         </div>
 
         {/* FEATURED MAGNIFICENT ANKARA EVENT CARD WITH GLASSMORPHISM & GOLD BORDERS */}
         <div className="w-full">
           <div className="bg-white/70 backdrop-blur-lg rounded-[2.5rem] border-2 border-white/60 shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden grid grid-cols-1 lg:grid-cols-12 relative">
-            
+
             {/* LEFT COLUMN: Dark Luxury Banner */}
             <div className="lg:col-span-5 bg-slate-950 p-10 sm:p-14 text-white flex flex-col justify-between relative overflow-hidden border-b lg:border-b-0 lg:border-r-2 border-slate-800 backdrop-blur-md">
               <div className="relative z-10 space-y-8">
@@ -88,7 +88,7 @@ export default function EventCard({ onOpenRegister }: EventCardProps) {
 
             {/* RIGHT COLUMN: Event Content (bg-white/70 backdrop-blur-lg) */}
             <div className="lg:col-span-7 p-10 sm:p-14 flex flex-col justify-between space-y-10 bg-white/70 backdrop-blur-lg">
-              
+
               <div className="space-y-6">
                 <div className="flex flex-wrap items-center justify-between gap-4">
                   <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[#D9278E] bg-white/80 px-4 py-2 rounded-xl border border-[#D9278E]/30 shadow-xs">
@@ -113,7 +113,7 @@ export default function EventCard({ onOpenRegister }: EventCardProps) {
                 <div className="p-6 rounded-2xl bg-white/60 border border-white/50 shadow-md">
                   <div className="flex items-center gap-3 text-slate-900 font-black text-lg">
                     <Clock className="w-6 h-6 text-[#D9278E]" />
-                    <span>2 Full Days</span>
+                    <span>1 Full Day</span>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-600 mt-1 font-medium">
                     Structured committee sessions, debates & gala ceremony.

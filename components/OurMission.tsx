@@ -14,13 +14,13 @@ export default function OurMission() {
   return (
     <section id="mission" className="py-28 text-slate-900 relative overflow-hidden">
       <div className="max-w-[1650px] mx-auto px-6 sm:px-12 lg:px-16 xl:px-20 relative z-10">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 xl:gap-24 items-center">
-          
+
           {/* Left Side: Mission Visual & Quote (Glassmorphism) */}
           <div className="lg:col-span-5 relative">
             <div className="p-8 sm:p-12 rounded-3xl bg-white/70 backdrop-blur-lg border border-white/50 shadow-xl relative space-y-7">
-              
+
               <div className="w-16 h-16 rounded-2xl bg-[#D9278E] text-white flex items-center justify-center shadow-lg">
                 <Target className="w-8 h-8 text-white" />
               </div>
@@ -41,7 +41,7 @@ export default function OurMission() {
 
               <div className="pt-6 border-t border-slate-200 flex items-center justify-between text-sm text-slate-700 font-extrabold">
                 <span className="font-black text-slate-900">Oxford Corridor Team</span>
-                <span className="text-[#D9278E] font-extrabold">@oxc.mun</span>
+                <span className="text-[#D9278E] font-extrabold">@oxcmunankara</span>
               </div>
             </div>
           </div>

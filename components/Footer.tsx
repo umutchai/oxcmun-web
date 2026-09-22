@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="bg-slate-950 text-slate-300 border-t border-slate-800 pt-16 pb-10 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-12 border-b border-slate-800/80">
-          
+
           {/* Col 1: Brand Info & Logo */}
           <div className="md:col-span-6 space-y-4">
             <div className="flex items-center gap-3">
@@ -69,9 +69,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/oxc.mun" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9278E] transition-colors flex items-center gap-2">
+                <a href="https://instagram.com/oxcmunankara" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9278E] transition-colors flex items-center gap-2">
                   <Instagram className="w-4 h-4 text-[#D9278E]" />
-                  <span>@oxc.mun</span>
+                  <span>@oxcmunankara</span>
                 </a>
               </li>
             </ul>

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Calendar, MapPin, CheckCircle2, ArrowRight, Shield, CreditCard, Sparkles } from "lucide-react";
+import { Calendar, MapPin, CheckCircle2, ArrowRight, Shield, Sparkles } from "lucide-react";
 
 export default function ConferenceFeeSection() {
   return (
@@ -11,7 +11,7 @@ export default function ConferenceFeeSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#D9278E]/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-4xl mx-auto mb-10 sm:mb-16 space-y-4">
           <motion.div
@@ -42,7 +42,7 @@ export default function ConferenceFeeSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-slate-300 text-base sm:text-lg font-normal"
           >
-            Join young delegates across the country for an unforgettable 2-day conference preceded by comprehensive preparatory training.
+            Join young delegates across the country for an unforgettable 1-day conference preceded by comprehensive preparatory training.
           </motion.p>
         </div>
 
@@ -59,10 +59,10 @@ export default function ConferenceFeeSection() {
             <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#D9278E] via-amber-400 to-[#D9278E]" />
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              
+
               {/* Left Column: Event Details & Training Note */}
               <div className="lg:col-span-7 space-y-6">
-                
+
                 <div className="space-y-4">
                   <span className="text-xs font-bold uppercase tracking-widest text-[#D9278E]">
                     Upcoming Conference Details
@@ -92,7 +92,7 @@ export default function ConferenceFeeSection() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-[#D9278E] shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-slate-200">
-                      Full access to 2-day MUN conference sessions & committees
+                      Full access to 1-day MUN conference sessions & committees
                     </span>
                   </div>
                   <div className="flex items-start gap-3">
@@ -111,25 +111,21 @@ export default function ConferenceFeeSection() {
 
               </div>
 
-              {/* Right Column: Pricing & Registration Action */}
-              <div className="lg:col-span-5 bg-slate-900/90 border border-slate-700/80 rounded-2xl p-6 sm:p-8 text-center space-y-6 flex flex-col justify-between">
-                <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-2">
-                    All-Inclusive Delegate Fee
+              {/* Right Column: Registration Action */}
+              <div className="lg:col-span-5 bg-slate-900/90 border border-slate-700/80 rounded-2xl p-6 sm:p-8 text-center space-y-6 flex flex-col justify-center items-center shadow-lg">
+                <div className="space-y-2">
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#D9278E] block">
+                    Delegate Registration
                   </span>
-                  
-                  <div className="font-montserrat font-extrabold text-4xl sm:text-5xl text-white tracking-tight">
-                    6000 <span className="text-2xl text-[#D9278E]">TL</span>
-                  </div>
-
-                  {/* Installment Detail */}
-                  <div className="mt-4 p-3 rounded-xl bg-slate-800/80 border border-slate-700 text-xs text-slate-300 flex items-center justify-center gap-2">
-                    <CreditCard className="w-4 h-4 text-amber-400 shrink-0" />
-                    <span>Payable in two interest-free installments</span>
-                  </div>
+                  <h3 className="font-montserrat font-extrabold text-xl sm:text-2xl text-white">
+                    Ready to Participate?
+                  </h3>
+                  <p className="text-xs sm:text-sm text-slate-300">
+                    Secure your delegate seat for Oxford Corridor PREMUN Ankara.
+                  </p>
                 </div>
 
-                <div className="space-y-3 pt-2">
+                <div className="w-full space-y-3 pt-2">
                   <a
                     href="/apply"
                     className="w-full inline-flex items-center justify-center gap-2 bg-[#D9278E] hover:bg-[#be1b78] text-white font-bold text-sm uppercase py-4 rounded-xl shadow-lg shadow-[#D9278E]/30 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5"
