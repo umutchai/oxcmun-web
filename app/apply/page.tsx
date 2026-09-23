@@ -86,7 +86,7 @@ export default function ApplyPage() {
 
       {/* Main Content Area */}
       <main className="relative z-10 max-w-3xl mx-auto p-4 md:p-8 py-8 sm:py-16">
-        
+
         {/* Success Alert Banner */}
         {submitted ? (
           <div className="bg-white rounded-2xl shadow-2xl border-t-8 border-emerald-500 p-6 sm:p-12 text-center space-y-6">
@@ -110,7 +110,7 @@ export default function ApplyPage() {
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-5">
-            
+
             {/* Header Title Card */}
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 border-t-4 border-t-[#D9278E] p-5 sm:p-8">
               <div className="space-y-3">
@@ -247,12 +247,12 @@ export default function ApplyPage() {
 
               {/* Dynamic Alert Info Box for Individual Delegate */}
               {formData.role === "Individual Delegate" && (
-                <div className="bg-blue-50 border border-blue-200 p-5 sm:p-6 rounded-lg mt-4 space-y-2 text-sm text-slate-800 shadow-sm animate-fade-in">
+                <div className="bg-blue-50 border border-blue-200 p-5 sm:p-6 rounded-lg mt-4 space-y-2.5 text-sm text-slate-800 shadow-sm animate-fade-in">
                   <p className="font-bold text-blue-950 text-base mb-1">
                     Please Contact us
                   </p>
                   <p className="text-slate-700">
-                    <span className="font-semibold text-blue-950">Pelin Onat</span> : Director General of oxford corridor ankara model united nations
+                    <span className="font-semibold text-blue-950">Pelin Onat</span> : Director General of Oxford Corridor Ankara Model United Nations
                   </p>
                   <p className="text-slate-700 flex items-center gap-1.5 pt-0.5">
                     <Phone className="w-4 h-4 text-blue-600 shrink-0" />
@@ -261,11 +261,15 @@ export default function ApplyPage() {
                       05394256167
                     </a>
                   </p>
-                  <p className="text-slate-700 flex items-center gap-1.5 pt-0.5">
+                  <p className="text-slate-700 flex flex-wrap items-center gap-x-2 gap-y-1 pt-0.5">
                     <Mail className="w-4 h-4 text-blue-600 shrink-0" />
                     <span className="font-semibold text-blue-950">Email Address</span> :{" "}
                     <a href="mailto:pelin@oxfordcorridor.com" className="font-semibold text-blue-700 hover:underline">
                       pelin@oxfordcorridor.com
+                    </a>
+                    <span className="text-slate-400">|</span>
+                    <a href="mailto:info@oxcmunankara.com" className="font-semibold text-blue-700 hover:underline">
+                      info@oxcmunankara.com
                     </a>
                   </p>
                 </div>

@@ -8,6 +8,7 @@ import PremunSection from "@/components/PremunSection";
 import CoreSkillsSection from "@/components/CoreSkillsSection";
 import CommitteesSection from "@/components/CommitteesSection";
 import ConferenceFeeSection from "@/components/ConferenceFeeSection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -33,6 +34,9 @@ export default function Home() {
 
       {/* Upcoming Conference & All-Inclusive Pricing Section */}
       <ConferenceFeeSection />
+
+      {/* Modern Contact Us Section & Automatic Email Form */}
+      <ContactSection />
 
       {/* Minimalist Corporate Footer */}
       <Footer />

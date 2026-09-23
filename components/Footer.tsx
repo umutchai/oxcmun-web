@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { Globe, Instagram, ArrowUp } from "lucide-react";
+import { Globe, Instagram, Mail, ArrowUp } from "lucide-react";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -63,14 +63,20 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
+                <a href="mailto:info@oxcmunankara.com" className="hover:text-[#D9278E] transition-colors flex items-center gap-2">
+                  <Mail className="w-4 h-4 text-[#D9278E] shrink-0" />
+                  <span>info@oxcmunankara.com</span>
+                </a>
+              </li>
+              <li>
                 <a href="https://oxfordcorridor.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9278E] transition-colors flex items-center gap-2">
-                  <Globe className="w-4 h-4 text-[#D9278E]" />
+                  <Globe className="w-4 h-4 text-[#D9278E] shrink-0" />
                   <span>oxfordcorridor.com</span>
                 </a>
               </li>
               <li>
                 <a href="https://instagram.com/oxcmunankara" target="_blank" rel="noopener noreferrer" className="hover:text-[#D9278E] transition-colors flex items-center gap-2">
-                  <Instagram className="w-4 h-4 text-[#D9278E]" />
+                  <Instagram className="w-4 h-4 text-[#D9278E] shrink-0" />
                   <span>@oxcmunankara</span>
                 </a>
               </li>

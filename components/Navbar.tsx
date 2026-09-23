@@ -31,15 +31,14 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? "bg-black/85 backdrop-blur-md shadow-2xl py-3 md:py-4 border-b border-white/10"
           : "bg-transparent py-4 md:py-6"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 md:px-12">
         <div className="flex items-center justify-between">
-          
+
           {/* Left Side: Enlarged Logo + Vertical Divider + ANKARA (Serif) */}
           <a href="#home" className="flex items-center group focus:outline-none">
             <div className="relative flex items-center shrink-0">
@@ -49,15 +48,15 @@ export default function Navbar() {
                 width={180}
                 height={60}
                 priority
-                className="h-8 md:h-12 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
+                className="h-10 sm:h-12 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105"
               />
             </div>
 
             {/* Thin Vertical Line Divider */}
-            <div className="h-6 md:h-8 border-l border-white/30 mx-3 md:mx-4" />
+            <div className="h-7 sm:h-8 border-l border-white/30 mx-2.5 sm:mx-3 md:mx-4" />
 
             {/* Elegant Serif ANKARA */}
-            <span className="font-serif text-white font-medium text-xs sm:text-base md:text-lg tracking-wider">
+            <span className="font-serif text-white font-medium text-sm sm:text-base md:text-lg tracking-wider">
               ANKARA
             </span>
           </a>
@@ -68,17 +67,15 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className={`text-xs font-semibold tracking-widest uppercase transition-colors duration-200 relative group ${
-                  link.label === "HOME"
+                className={`text-xs font-semibold tracking-widest uppercase transition-colors duration-200 relative group ${link.label === "HOME"
                     ? "text-[#D9278E]"
                     : "text-white/90 hover:text-[#D9278E]"
-                }`}
+                  }`}
               >
                 <span>{link.label}</span>
                 <span
-                  className={`absolute -bottom-1 left-0 h-0.5 bg-[#D9278E] transition-all duration-300 ${
-                    link.label === "HOME" ? "w-full" : "w-0 group-hover:w-full"
-                  }`}
+                  className={`absolute -bottom-1 left-0 h-0.5 bg-[#D9278E] transition-all duration-300 ${link.label === "HOME" ? "w-full" : "w-0 group-hover:w-full"
+                    }`}
                 />
               </a>
             ))}
@@ -125,9 +122,8 @@ export default function Navbar() {
                 key={link.label}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`font-semibold text-sm uppercase tracking-widest py-2 border-b border-white/10 transition-colors ${
-                  link.label === "HOME" ? "text-[#D9278E]" : "text-white hover:text-[#D9278E]"
-                }`}
+                className={`font-semibold text-sm uppercase tracking-widest py-2 border-b border-white/10 transition-colors ${link.label === "HOME" ? "text-[#D9278E]" : "text-white hover:text-[#D9278E]"
+                  }`}
               >
                 {link.label}
               </a>

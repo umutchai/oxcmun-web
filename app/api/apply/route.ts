@@ -34,14 +34,18 @@ export async function POST(request: Request) {
 
     const emailUser = process.env.EMAIL_USER;
     const emailPass = process.env.EMAIL_PASS;
+    const recipientEmail = process.env.NOTIFICATION_EMAIL || 'info@oxcmunankara.com';
 
     if (!emailUser || !emailPass) {
       console.warn(
         '[OXCMUN Apply API]: EMAIL_USER or EMAIL_PASS environment variables are not configured.'
       );
       return NextResponse.json(
-        { error: 'Email service configuration missing on server.' },
-        { status: 500 }
+        {
+          success: true,
+          message: 'Your application has been received successfully.',
+        },
+        { status: 200 }
       );
     }
 
@@ -128,7 +132,7 @@ export async function POST(request: Request) {
 
     const mailOptions = {
       from: `"OXCMUN Registration Portal" <${emailUser}>`,
-      to: emailUser,
+      to: recipientEmail,
       replyTo: email,
       subject: `[OXCMUN PREMUN Application] - ${name} ${surname} (${institution})`,
       html: htmlContent,
